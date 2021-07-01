@@ -1,0 +1,19 @@
+.wrapper {
+    padding-top: 10px;
+    width: 100%;
+  }
+  
+
+.searchbar {
+    height: 40px;
+    width: 100%;
+    padding-top: 15px;
+    margin: auto;
+    pointer-events: null
+}
+
+/* .searchbar:hover, .searchbar:focus {
+    border: 3px solid #ddddddb6;
+    background-color: white;
+  } */
+

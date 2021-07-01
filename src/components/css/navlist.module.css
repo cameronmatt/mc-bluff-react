@@ -1,0 +1,51 @@
+.list {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style-type:none;
+    text-align: left;
+    padding-inline-start: 0px;
+}
+
+.back {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    
+}
+
+.home {
+    text-decoration: none;
+    color: grey; 
+    font-size: 20px;
+    
+}
+
+.cat {
+    color: rgb(0, 0, 0); 
+    font-size: 20px;
+    margin:30px 0 5px 0;
+}
+
+.mens {
+    text-decoration: none;
+    color: grey; 
+    margin:0 0 0 5px;
+}
+
+.womens {
+    text-decoration: none;
+    color: grey; 
+    margin:0 0 0 5px;
+}
+
+.elec {
+    text-decoration: none;
+    color: grey; 
+    margin:0 0 0 5px;
+}
+
+.jewel {
+    text-decoration: none;
+    color: grey; 
+    margin:0 0 0 5px;
+}

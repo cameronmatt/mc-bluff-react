@@ -1,0 +1,53 @@
+.item {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 80% 10% 10%;
+    /* margin: 10px; */
+    /* position: relative; */
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(199, 199, 199);
+    margin-bottom: 7px;
+  }
+
+  .list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+  }
+
+  .title {
+    grid-row: 1;
+    grid-column: 1;
+    padding-left: 5px;
+  }
+
+  .price {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+ .remove {
+    grid-row: 1;
+    grid-column: 3;
+    background: white;
+    border-style: none;
+ }
+
+ .remove:hover {
+    background: rgb(199, 199, 199);
+    border-style: none;
+    color: white;
+ }
+
+ .removeContainer {
+    margin: auto;
+    display: flex
+ }
+
+ .noItems {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+ }
